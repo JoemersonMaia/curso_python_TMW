@@ -6,4 +6,4 @@ estoque = [
     ["Correia dentada", 2],
     ["Amortecedor", 8]
 ]
-
+print(estoque)
