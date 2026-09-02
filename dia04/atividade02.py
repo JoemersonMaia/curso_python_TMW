@@ -6,4 +6,6 @@ estoque = [
     ["Correia dentada", 2],
     ["Amortecedor", 8]
 ]
-print(estoque)
+
+for i in range(len(estoque)):
+    :produto
