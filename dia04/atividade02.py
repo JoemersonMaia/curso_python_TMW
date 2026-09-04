@@ -56,5 +56,4 @@ elif opcao == "5":
         if ver_vendedor == vendedor:
             print(numero_vendas)
 
-elif opcao == "6":
-    
+#elif opcao == "6":

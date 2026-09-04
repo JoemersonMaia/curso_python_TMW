@@ -12,10 +12,15 @@ dados_teo = {
 
 
 print(dados_teo["formacao"][1])
-print(dados_teo["cargos"][-1]["empresa"])]
+print(dados_teo["cargos"][-1]["empresa"])
 
 # %%
 dados_teo["estado civil"] = "casado"
 
 # %%
 print(dados_teo)
+
+# %%
+print("Chaves:", dados_teo.keys())
+
+print(dados_teo.values())
