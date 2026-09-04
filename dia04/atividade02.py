@@ -7,3 +7,6 @@ estoque = [
     ["Amortecedor", 8]
 ]
 
+for i in range(len(estoque)):
+    produto = estoque[i][0]
+    
