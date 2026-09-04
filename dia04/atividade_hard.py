@@ -48,5 +48,5 @@ if opcao == "6":
             notas = i[1:]
             aluno = i[0]
             media = sum(notas) / len(notas)
-            if aluno  
+            
 
