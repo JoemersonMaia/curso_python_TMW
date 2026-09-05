@@ -24,19 +24,3 @@ print(dados_teo)
 print("Chaves:", dados_teo.keys())
 
 print(dados_teo.values())
-
-print("Items:", dados_teo.items())
-
-# %%
-
-for i in dados_teo:
-    print(i,"->", dados_teo[i])
-
-# %%
-
-for chave in dados_teo:
-    print(i,"->", dados_teo[chave])
-
-# %%
-for [chave,valor] in dados_teo.items():
-    print(chave, valor)

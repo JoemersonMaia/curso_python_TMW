@@ -12,10 +12,6 @@ vendas = [
 ]
 
 
-for i in range(len(estoque)):
-    produto = estoque[i][0]
-    
-
 opcao = input("""
 1 - Ver todas as vendas
 2 - Ver vendas acima de determinado valor
@@ -60,3 +56,4 @@ elif opcao == "5":
         numero_vendas = vendas[i][1]  
         if ver_vendedor == vendedor:
             print(numero_vendas)
+
