@@ -11,6 +11,7 @@ vendas = [
     ["João", 1500]
 ]
 
+
 opcao = input("""
 1 - Ver todas as vendas
 2 - Ver vendas acima de determinado valor
@@ -56,4 +57,3 @@ elif opcao == "5":
         if ver_vendedor == vendedor:
             print(numero_vendas)
 
-#elif opcao == "6":
