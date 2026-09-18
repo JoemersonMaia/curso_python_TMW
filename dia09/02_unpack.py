@@ -35,4 +35,8 @@ soma( 1, 2 ,4 ,7)
 
 # %%
 
-def soma_quatro()
+def soma_quatro(a,b, c, d):
+    return a+b+c+d
+
+values = [1,2,3,4]
+soma_quatro(*values)
